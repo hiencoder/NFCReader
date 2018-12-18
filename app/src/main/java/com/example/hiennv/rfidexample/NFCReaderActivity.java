@@ -28,6 +28,7 @@ public class NFCReaderActivity extends AppCompatActivity {
     private PendingIntent pendingIntent;
 
     //https://stackoverflow.com/questions/17587963/reading-an-ndef-message-from-an-nfc-tag-from-an-android-application
+    //https://medium.com/@ssaurel
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
