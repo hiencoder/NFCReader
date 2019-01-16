@@ -54,7 +54,6 @@ public class NFCReaderActivity extends AppCompatActivity {
         if (mNfcAdapter != null) {
             if (!mNfcAdapter.isEnabled())
                 showWirelessSettings();
-
             mNfcAdapter.enableForegroundDispatch(this, pendingIntent, null, null);
         }
     }
